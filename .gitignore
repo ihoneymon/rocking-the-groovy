@@ -16,7 +16,6 @@ local.properties
 .classpath
 .project
 
-
 # External tool builders
 .externalToolBuilders/
 
@@ -31,10 +30,6 @@ local.properties
 
 # sbteclipse plugin 
 .target
-
-# TeXlipse plugin
-.texlipse
-
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode
@@ -71,5 +66,3 @@ com_crashlytics_export_strings.xml
 ### Gradle ###
 .gradle
 build/
-
-
