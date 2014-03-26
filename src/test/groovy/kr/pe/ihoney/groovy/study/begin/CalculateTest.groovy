@@ -1,10 +1,10 @@
 package kr.pe.ihoney.groovy.study.begin
 
-import static org.junit.Assert.*;
-import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.*
+import static org.hamcrest.CoreMatchers.*
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.Before
+import org.junit.Test
 
 class CalculateTest {
 
@@ -12,7 +12,7 @@ class CalculateTest {
 
     @Before
     void before() {
-        cal = new Calculate();
+        cal = new Calculate()
     }
 
     @Test
@@ -20,4 +20,10 @@ class CalculateTest {
         int result = cal.add(10, 15)
         assertThat(result, is(25))
     }
+	
+	@Test
+	void 빼기() {
+		int result = cal.minus(15, 5)
+		assertThat(result, is(10))
+	}
 }

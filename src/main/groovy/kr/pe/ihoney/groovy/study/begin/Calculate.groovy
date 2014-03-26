@@ -4,4 +4,8 @@ class Calculate {
     def add(int first, int second) {
         return first + second
     }
+	
+	def minus(int first, int second) {
+		return first - second;
+	}
 }
